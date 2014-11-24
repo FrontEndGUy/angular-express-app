@@ -1,0 +1,67 @@
+2014-11-24T16:18:47.746+0530 [initandlisten] MongoDB starting : pid=5296 port=27017 dbpath=data/db 64-bit host=ShaikBasha-1205
+2014-11-24T16:18:47.747+0530 [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2014-11-24T16:18:47.747+0530 [initandlisten] db version v2.6.5
+2014-11-24T16:18:47.747+0530 [initandlisten] git version: e99d4fcb4279c0279796f237aa92fe3b64560bf6
+2014-11-24T16:18:47.747+0530 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2014-11-24T16:18:47.747+0530 [initandlisten] allocator: system
+2014-11-24T16:18:47.747+0530 [initandlisten] options: { storage: { dbPath: "data/db/" }, systemLog: { destination: "file", logAppend: true, path: "data/logs/mongodb.log" } }
+2014-11-24T16:18:47.783+0530 [initandlisten] journal dir=data/db\journal
+2014-11-24T16:18:47.784+0530 [initandlisten] recover : no journal files present, no recovery needed
+2014-11-24T16:18:47.848+0530 [initandlisten] allocating new ns file data/db\local.ns, filling with zeroes...
+2014-11-24T16:18:48.551+0530 [FileAllocator] allocating new datafile data/db\local.0, filling with zeroes...
+2014-11-24T16:18:48.551+0530 [FileAllocator] creating directory data/db\_tmp
+2014-11-24T16:18:48.702+0530 [FileAllocator] done allocating datafile data/db\local.0, size: 64MB,  took 0.149 secs
+2014-11-24T16:18:48.703+0530 [initandlisten] build index on: local.startup_log properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.startup_log" }
+2014-11-24T16:18:48.703+0530 [initandlisten] 	 added index to empty collection
+2014-11-24T16:18:48.703+0530 [initandlisten] command local.$cmd command: create { create: "startup_log", size: 10485760, capped: true } ntoreturn:1 keyUpdates:0 numYields:0  reslen:37 854ms
+2014-11-24T16:18:48.703+0530 [initandlisten] waiting for connections on port 27017
+2014-11-24T16:19:21.741+0530 [initandlisten] connection accepted from 127.0.0.1:51068 #1 (1 connection now open)
+2014-11-24T16:19:28.352+0530 [conn1] end connection 127.0.0.1:51068 (0 connections now open)
+2014-11-24T16:19:47.846+0530 [clientcursormon] mem (MB) res:38 virt:305
+2014-11-24T16:19:47.846+0530 [clientcursormon]  mapped (incl journal view):160
+2014-11-24T16:19:47.846+0530 [clientcursormon]  connections:0
+2014-11-24T16:20:00.191+0530 Ctrl-C signal
+2014-11-24T16:20:00.191+0530 [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2014-11-24T16:20:00.191+0530 [consoleTerminate] now exiting
+2014-11-24T16:20:00.192+0530 [consoleTerminate] dbexit: 
+2014-11-24T16:20:00.192+0530 [consoleTerminate] shutdown: going to close listening sockets...
+2014-11-24T16:20:00.192+0530 [consoleTerminate] closing listening socket: 460
+2014-11-24T16:20:00.192+0530 [consoleTerminate] shutdown: going to flush diaglog...
+2014-11-24T16:20:00.192+0530 [consoleTerminate] shutdown: going to close sockets...
+2014-11-24T16:20:00.192+0530 [consoleTerminate] shutdown: waiting for fs preallocator...
+2014-11-24T16:20:00.192+0530 [consoleTerminate] shutdown: lock for final commit...
+2014-11-24T16:20:00.192+0530 [consoleTerminate] shutdown: final commit...
+2014-11-24T16:20:00.206+0530 [consoleTerminate] shutdown: closing all files...
+2014-11-24T16:20:00.206+0530 [consoleTerminate] closeAllFiles() finished
+2014-11-24T16:20:00.206+0530 [consoleTerminate] journalCleanup...
+2014-11-24T16:20:00.300+0530 [consoleTerminate] removeJournalFiles
+2014-11-24T16:20:00.301+0530 [consoleTerminate] shutdown: removing fs lock...
+2014-11-24T16:20:00.301+0530 [consoleTerminate] dbexit: really exiting now
+2014-11-24T16:20:13.223+0530 ***** SERVER RESTARTED *****
+2014-11-24T16:20:13.229+0530 [initandlisten] MongoDB starting : pid=7088 port=27017 dbpath=data/db 64-bit host=ShaikBasha-1205
+2014-11-24T16:20:13.230+0530 [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2014-11-24T16:20:13.230+0530 [initandlisten] db version v2.6.5
+2014-11-24T16:20:13.230+0530 [initandlisten] git version: e99d4fcb4279c0279796f237aa92fe3b64560bf6
+2014-11-24T16:20:13.230+0530 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2014-11-24T16:20:13.230+0530 [initandlisten] allocator: system
+2014-11-24T16:20:13.230+0530 [initandlisten] options: { storage: { dbPath: "data/db" }, systemLog: { destination: "file", logAppend: true, path: "data/logs/mongodb.log" } }
+2014-11-24T16:20:13.265+0530 [initandlisten] journal dir=data/db\journal
+2014-11-24T16:20:13.265+0530 [initandlisten] recover : no journal files present, no recovery needed
+2014-11-24T16:20:13.328+0530 [initandlisten] waiting for connections on port 27017
+2014-11-24T16:20:26.515+0530 Ctrl-C signal
+2014-11-24T16:20:26.515+0530 [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2014-11-24T16:20:26.515+0530 [consoleTerminate] now exiting
+2014-11-24T16:20:26.515+0530 [consoleTerminate] dbexit: 
+2014-11-24T16:20:26.515+0530 [consoleTerminate] shutdown: going to close listening sockets...
+2014-11-24T16:20:26.515+0530 [consoleTerminate] closing listening socket: 496
+2014-11-24T16:20:26.516+0530 [consoleTerminate] shutdown: going to flush diaglog...
+2014-11-24T16:20:26.516+0530 [consoleTerminate] shutdown: going to close sockets...
+2014-11-24T16:20:26.516+0530 [consoleTerminate] shutdown: waiting for fs preallocator...
+2014-11-24T16:20:26.516+0530 [consoleTerminate] shutdown: lock for final commit...
+2014-11-24T16:20:26.516+0530 [consoleTerminate] shutdown: final commit...
+2014-11-24T16:20:26.618+0530 [consoleTerminate] shutdown: closing all files...
+2014-11-24T16:20:26.619+0530 [consoleTerminate] closeAllFiles() finished
+2014-11-24T16:20:26.619+0530 [consoleTerminate] journalCleanup...
+2014-11-24T16:20:26.619+0530 [consoleTerminate] removeJournalFiles
+2014-11-24T16:20:26.620+0530 [consoleTerminate] shutdown: removing fs lock...
+2014-11-24T16:20:26.620+0530 [consoleTerminate] dbexit: really exiting now
